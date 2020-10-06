@@ -26,9 +26,7 @@ function App() {
       <EightComponent />
       <NineComponent />
       <TenComponent />
-        <p>
-          This is the first Mest project
-        </p>
+      
      
     </div>
   );
