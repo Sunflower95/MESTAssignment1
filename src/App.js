@@ -1,24 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import FirstComponent from './FirstComponent.js';
+import SecondComponent from './SecondComponet.js';
+import ThirdComponent from './ThirdComponent.js';
+import FourthComponent from './FourthComponent.js';
+import FiveComponent from './FiveComponent.js';
+import SixComponent from './SixComponent.js';
+import SevenComponent from './SevenComponent.js';
+import EightComponent from './EightComponent.js';
+import NineComponent from './NineComponent.js';
+import TenComponent from './TenComponent.js';
+
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+    <div>
+      <FirstComponent />
+      <SecondComponent />
+      <ThirdComponent />
+      <FourthComponent />
+      <FiveComponent />
+      <SixComponent />
+      <SevenComponent />
+      <EightComponent />
+      <NineComponent />
+      <TenComponent />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          This is the first Mest project
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     
     </div>
   );
 }
